@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="f5de9cff-9766-4526-90e9-575b26ee5d2f" activeEnvironment="Default" name="sample-wadl" resourceRoot="" soapui-version="5.6.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export All" value="true"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="true"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="NewTestSuite"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="true"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="TestCase 1"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value="C:\Program Files\SmartBear\SoapUI-5.6.0\bin"/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="true"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" id="2f8ebe1d-227a-4c8c-936a-f5b29547804c" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://restcountries.eu" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://restcountries.eu</con:endpoint></con:endpoints><con:resource name="All" path="/rest/v2/all" id="2dfb0d5a-c262-455a-b0fe-2b6cb06a13c7"><con:settings/><con:parameters/><con:method name="All 1" id="99dc362b-7454-4588-a3bc-bc43db0ed7c7" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json;charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:request name="Request 1" id="9b8c6ba1-f9de-44c3-b83f-6042b6825747" mediaType="application/json"><con:settings/><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder><con:entry/></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="b8fcb260-a91a-482d-bf8b-641f326e7d97" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://app.asana.com" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://app.asana.com</con:endpoint></con:endpoints><con:resource name="" path="" id="817cbb73-9d05-41ab-8ae8-823e3ee16b5c"><con:settings/><con:parameters/><con:method name="1" id="ab8afd27-aa05-41b9-a185-8966f41039fa" method="GET"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>text/html; charset=UTF-8</con:mediaType><con:status>403</con:status><con:params/><con:element>html</con:element></con:representation><con:request name="Request 1" id="16cd2879-77fb-4a8c-b787-362a2617cb7f" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://app.asana.com</con:endpoint><con:request/><con:originalUri>https://app.asana.com/-/login</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="24511ab3-e3fe-4abc-8156-80b450f33b8f" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://restcountries.eu" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://restcountries.eu</con:endpoint></con:endpoints><con:resource name="United" path="/rest/v2/name/united" id="7281392d-f143-4ce5-b31a-a0aed0a033eb"><con:settings/><con:parameters/><con:method name="United 1" id="4bd84167-e9d8-44f6-a362-c292d64b9c03" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json;charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json;charset=utf-8</con:mediaType><con:status>404</con:status><con:params/><con:element xmlns:unit="https://restcountries.eu/rest/v2/name/united">unit:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>text/html</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:request name="Request 1" id="42ed9986-5845-4084-9934-6e8a2d8a798b" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:originalUri>https://restcountries.eu/rest/v2/name/united</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource></con:interface><con:testSuite id="3d857387-65bd-4afb-bc49-c9a03f53c4ef" name="NewTestSuite"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="a5f77698-1039-4571-a0cc-a0ad8510dfb2" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 1" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="AllCountries" id="1cd7ee2a-c68a-41a3-ae1e-a48f0fc73c9a"><con:settings/><con:config service="https://restcountries.eu" methodName="All 1" resourcePath="/rest/v2/all" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="AllCountries" id="50ac7809-1897-4f0e-a314-4d250bc75cc2" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:originalUri>https://restcountries.eu/rest/v2/all</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="7b7c2091-0214-4c9d-ad88-618543dfb197" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder><con:entry/></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Parsing the text" id="965b1809-2586-478d-8a8a-5557f8ab524e" disabled="true"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def responseContent = testRunner.testCase.getTestStepByName("AllCountries").getPropertyValue("response")
+  // Create JsonSlurper Object to parse the response
+def Response = new JsonSlurper().parseText(responseContent)
+//log.info Response
+
+for (i=0;i&lt;Response.name.size();i++)
+{
+	def name=Response.name[i]
+	
+
+testRunner.testCase.testSuite.setPropertyValue("name", name)
+log.info name
+
+}	
+
+
+</script></con:config></con:testStep><con:testStep type="restrequest" name="Countrywise" id="6f769760-ddd2-4924-b5c7-ddfc14283911"><con:settings/><con:config service="https://restcountries.eu" resourcePath="/rest/v2/name/united" methodName="United 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Countrywise" id="42ed9986-5845-4084-9934-6e8a2d8a798b" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:originalUri>https://restcountries.eu/rest/v2/name/united</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3af7bb32-3aab-4be6-9539-899861f26e8d" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script2" id="cb5ba406-6a10-4656-a307-f573e12b4350" disabled="true"><con:settings/><con:config><script>import org.apache.poi.xssf.usermodel.*
+import org.apache.poi.xssf.usermodel.XSSFWorkbook
+import groovy.json.JsonSlurper
+
+def fs = new FileInputStream("C:\\Users\\joyka\\Documents\\Sample.xlsx")
+def wb = new XSSFWorkbook(fs)
+def ws = wb.getSheet("Sheet1")
+def r = ws.getPhysicalNumberOfRows()
+
+for(def i=0; i&lt;r; i++)
+{
+def row = ws.getRow(i)
+def c = row.getPhysicalNumberOfCells()
+
+for (def j=0;j&lt;c;j++)
+{
+def cell = row.getCell(j)
+log.info cell.getStringCellValue()
+}
+}
+
+//how to pass the value into the rest calls
+
+testRunner.runTestStepByName("Countrywise")	
+def testsuiteprop= testRunner.testCase.testSuite.getPropertyValue("united")
+log.info ("testsuiteprop is: "+testsuiteprop)
+
+
+  
+
+
+</script></con:config></con:testStep><con:testStep type="properties" name="Properties" id="67ed68d8-6e35-48cc-8e29-32202ea89429"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Resource</con:name><con:value>19AQA</con:value></con:property><con:property><con:name>count</con:name><con:value>0</con:value></con:property><con:property><con:name>Env</con:name><con:value>Dev</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="calltestcase" name="Run TestCase1" id="a75ba640-fcce-42aa-b135-6a51ce4c21dc"><con:settings/><con:config xsi:type="con:RunTestCaseStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:targetTestCase>935a2ff6-4cde-4759-963e-afe1396b2d11</con:targetTestCase><con:properties><con:property><con:name>LocalPropertyName</con:name></con:property></con:properties><con:returnProperties/><con:runMode>PARALLELL</con:runMode></con:config></con:testStep><con:loadTest id="e9e8846e-ee86-4677-b261-87e9e832ed34" name="LoadTest 1"><con:settings/><con:threadCount>10</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>10</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type><con:config><testDelay>1000</testDelay><randomFactor>0.0</randomFactor></con:config></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties><con:property><con:name>TestCase</con:name><con:value>TestCase</con:value></con:property></con:properties></con:testCase><con:testCase id="935a2ff6-4cde-4759-963e-afe1396b2d11" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Copy of Env Setup" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Global Prop" id="b43e627f-761a-477b-93dc-35500eaf4e57"><con:settings/><con:config><script>//def getGlobalPropertyValue = com.eviware.soapui.SoapUI.globalProperties.getPropertyValue("GlobalPropertyName")
+
+
+testRunner.testCase.setPropertyValue( "LocalPropertyName", "someValue" )
+def value=testRunner.testCase.getPropertyValue("LocalPropertyName")
+log.info value
+testRunner.testCase.testSuite.setPropertyValue( "LocalPropertyName", "someValue1" )
+testRunner.testCase.testSuite.project.setPropertyValue( "LocalPropertyName", "someValue2")
+com.eviware.soapui.SoapUI.globalProperties.setPropertyValue("Username", "MPUser")
+
+com.eviware.soapui.SoapUI.globalProperties.setPropertyValue("Password","MPUser")
+com.eviware.soapui.SoapUI.globalProperties.setPropertyValue("Environment","Dev")
+com.eviware.soapui.SoapUI.globalProperties.setPropertyValue("Resource","19BQA")
+</script></con:config></con:testStep><con:testStep type="transfer" name="Property Transfer" id="1a7ed274-4aef-4784-8a7c-8abaa8a299be"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>Resource</con:name><con:sourceType>name</con:sourceType><con:sourceStep>#TestSuite#</con:sourceStep><con:targetType>LocalPropertyName</con:targetType><con:targetStep>#TestCase#</con:targetStep><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:properties><con:property><con:name>LocalPropertyName</con:name><con:value>someValue</con:value></con:property></con:properties></con:testCase><con:properties><con:property><con:name>name</con:name><con:value>Zimbabwe</con:value></con:property><con:property><con:name>LocalPropertyName</con:name><con:value>someValue1</con:value></con:property></con:properties></con:testSuite><con:testSuite id="afa1d4d1-b834-4916-b4f5-dce8304ecef8" name="Environment setup"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="0499529b-1aad-45ad-bf86-da7a13533674" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Env Setup" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Global Prop" id="9660abe8-b307-4bb4-b749-f3ea07fbfcd1"><con:settings/><con:config><script>//def getGlobalPropertyValue = com.eviware.soapui.SoapUI.globalProperties.getPropertyValue("GlobalPropertyName")
+
+
+testRunner.testCase.setPropertyValue( "LocalPropertyName", "someValue" )
+testRunner.testCase.testSuite.setPropertyValue( "LocalPropertyName", "someValue1" )
+testRunner.testCase.testSuite.project.setPropertyValue( "LocalPropertyName", "someValue2" )
+com.eviware.soapui.SoapUI.globalProperties.setPropertyValue("Username", "MPUser")
+com.eviware.soapui.SoapUI.globalProperties.setPropertyValue("Password","MPUser")
+com.eviware.soapui.SoapUI.globalProperties.setPropertyValue("Environment","Dev")
+//log.info GlobalPropertyName</script></con:config></con:testStep><con:properties><con:property><con:name>LocalPropertyName</con:name><con:value>someValue</con:value></con:property></con:properties></con:testCase><con:properties><con:property><con:name>LocalPropertyName</con:name><con:value>someValue1</con:value></con:property></con:properties></con:testSuite><con:properties><con:property><con:name>LocalPropertyName</con:name><con:value>someValue2</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
